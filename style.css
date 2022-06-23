@@ -18,6 +18,9 @@
     --yellow: rgba(233, 230, 34, 1);
     background: url(https://img.wallpapersafari.com/desktop/1920/1080/9/59/ZcVzSn.jpeg);   
     background-position: center;
+    background-attachment: fixed;
+    top: 0;
+    bottom: 0;
     background-repeat: no-repeat;
     background-size: cover;
     
