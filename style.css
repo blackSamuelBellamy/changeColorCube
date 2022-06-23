@@ -77,7 +77,44 @@
     transform: rotateY(270deg) translateZ(100px);
 }
 
+.cubo .blue::before {
+    content: "const cambiaColor = (colorDiv, colorVariable) => { colorDiv.forEach(color => {color.addEventListener()}  ";
+    text-align: center;
+    font-size: .8em; 
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color:#FFF  ;
+    text-shadow: 0 0 5px #ccc, 2px 4px 10px #000, 4px 8px 20px #000;      
 
+}
+
+.cubo .orange::before {
+    content: "e.key == 'a' ? colorElegido = '#FF0002': e.key == 's' ? colorElegido = '#889999' colorElegido = '#000'";
+    text-align: center;
+    font-size: .8em; 
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color:#FFF  ;
+    text-shadow: 0 0 5px #ccc, 2px 4px 10px #000, 4px 8px 20px #000;      
+
+}
+
+.cubo .yellow::before {
+    content: "forEach(cubo => { cubo.style.cursor = 'pointer';}) cambiaColor(blueDivs, '--blue'); cambiaColor(orangeDivs, '--orange'); cambiaColor(yellowDivs, '--yellow');";
+    text-align: center;
+    font-size: .8em; 
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color:#FFF  ;
+    text-shadow: 0 0 5px #ccc, 2px 4px 10px #000, 4px 8px 20px #000;      
+
+}
 
 .top {
     width: 200px;
