@@ -19,11 +19,12 @@
     background: url(https://i.ibb.co/Q96Q8X7/ZcVzSn.png);   
     background-position: center;
     background-attachment: fixed;
-    top: 0;
-    bottom: 0;
-    position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    
     
 }
 
